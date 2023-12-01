@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Chạy file main.py bằng Python
-python main.py
+python3 main.py
