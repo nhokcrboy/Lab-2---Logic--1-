@@ -1,35 +1,10 @@
-3
-B OR C
--D OR F
--B OR -C OR E
-2
--A OR C
--B OR -C OR F
-3
--A OR -B OR E
--A OR -B OR F
--A OR -B OR D
-3
--A OR C OR E
--A OR C OR F
--A OR C OR D
-6
-B OR C OR E
-B OR C OR F
--A OR -B OR E OR F
--A OR -B OR D OR E
--A OR -B OR D OR F
-B OR C OR D
-4
--A OR C OR D OR F
--A OR C OR D OR E
--A OR C OR E OR F
--A OR C OR D OR E OR F
 5
-B OR C OR E OR F
-B OR C OR D OR F
--A OR -B OR D OR E OR F
-B OR C OR D OR E
-B OR C OR D OR E OR F
-0
-NO
+B
+A OR B
+A OR -C
+C
+A OR C
+2
+A
+{}
+YES

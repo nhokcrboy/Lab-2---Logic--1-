@@ -85,7 +85,6 @@ def PL_RESOLVE(clause1: list,clause2: list) -> list:
     c1 = set(clause1)
     c2 = set(clause2)
 
-
     for i in c1:
         if get_negative_literal(i) in c2:
             new_clause = c1.union(c2) - {i,get_negative_literal(i)}
@@ -110,7 +109,6 @@ def PL_RESOLVE(clause1: list,clause2: list) -> list:
                             new_clause[i],new_clause[j] = new_clause[j],new_clause[i]
                             
                 resolvents.append(tuple(new_clause))
-
 
     return resolvents
             
